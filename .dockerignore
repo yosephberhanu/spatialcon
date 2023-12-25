@@ -1,0 +1,50 @@
+# Dependency directories (handled by the build inside Docker)
+.m2/
+.mvn/
+node_modules/
+
+# Build directories
+target/
+build/
+out/
+dist/
+
+# Maven and Gradle specific files that are not needed for building
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# IDE specific directories and files
+.idea/
+*.iml
+*.iws
+*.ipr
+*.class
+*.launch
+*.project
+*.settings/
+*.vscode/
+
+# Operating system files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Log files and temporary files
+logs/
+temp/
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Test reports, if they're generated locally
+test-results/

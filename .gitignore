@@ -1,0 +1,97 @@
+# --- Java ---
+*.class
+*.log
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.jar
+*.der
+*.pem
+*.csr
+*.crt
+*.key
+*.jks
+*.keystore
+
+# Maven and Gradle files
+target/
+build/
+.gradle/
+!src/main/resources/
+!src/test/resources/
+gradlew
+gradlew.bat
+gradle-wrapper.jar
+gradle-wrapper.properties
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Package files
+!src/main/webapp/WEB-INF/lib/provided/
+
+# --- IDEs and Editors ---
+## IntelliJ IDEA ##
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+## Eclipse ##
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+.metadata/
+*.launch
+
+## NetBeans ##
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+## VSCode ##
+.vscode/
+
+# --- Operating Systems ---
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.DocumentRevisions-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# --- Docker ---
+# Ignore Docker files and directories
+*.env
+.env
